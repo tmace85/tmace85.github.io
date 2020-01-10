@@ -5,7 +5,4 @@ defaults:
       path: ""
       type: posts
       layout: default
-
----
-  permalink: /page/
----
+      permalink: /blog/
