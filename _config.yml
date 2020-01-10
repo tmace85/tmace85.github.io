@@ -6,5 +6,5 @@ defaults:
       type: posts
 
 ---
-  permalink: /page
+  permalink: /page/
 ---
