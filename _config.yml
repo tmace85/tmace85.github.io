@@ -6,3 +6,7 @@ defaults:
       type: posts
     values:
       layout: "default"
+
+---
+  permalink: /page
+---
