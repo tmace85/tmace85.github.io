@@ -4,6 +4,7 @@ defaults:
     scope:
       path: ""
       type: posts
+      layout: "default"
 
 ---
   permalink: /page/
