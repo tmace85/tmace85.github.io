@@ -4,7 +4,7 @@
 
 * Nico
 * Tim
-* Sebastian
+* [Sebastian](https://www.linkedin.com/in/sebastianthiele/)
 
-* Was wir machen *
+*Was wir machen*
 Blödsinn
