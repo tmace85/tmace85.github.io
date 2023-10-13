@@ -2,7 +2,7 @@
 
 Wie immer ist hier wenig los. Kommt noch. :) 
 
-Ihr findet moch auch unter folgenden Plattformen
+Ihr findet mich auch auf folgenden Plattformen:
 
 [LinkedIN](www.linkedin.com/in/tschiemann)
 [Blue Sky](https://bsky.app/profile/tim-schiemann.de)
