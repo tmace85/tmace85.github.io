@@ -1,4 +1,7 @@
 title: Blog of Tim
-remote_theme: tajacks/lightspeed
+url: https://www.tim-schiemann.de
+remote_theme: mmistakes/minimal-mistakes
+
 plugins:
 - jekyll-remote-theme
+- jekyll-include-cache
