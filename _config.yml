@@ -27,6 +27,24 @@ author:
   avatar           : "/assets/images/tim_xletix.jpg"
   bio              : "Nerd"
   location         : "Berlin"
+  links:
+    - label: "LinkedIN"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/tschiemann"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tmace85"
+    - label: "BlueSky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/tim-schiemann.de"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://berlin.social/@mtdon"
+    - label: "Geekparents Podcast"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://www.geekparents.de"
+
+
 
 footer:
   links:
