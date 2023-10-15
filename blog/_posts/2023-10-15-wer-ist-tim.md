@@ -1,6 +1,7 @@
 ---
 title: Wer ist Tim!
 description: "Die Seite über Tim"
+permalink: /about/
 header:
   image: assets/images/tim_xletix.jpg
   image_description: "Tim in dreckigem Wasser"
