@@ -31,7 +31,7 @@ OS wählen -> "Other specifi-purpose OS" ->  Home assistants and home automation
 
 Nun wird das ganze auf der SD Karte installiert. Bei mir musste ich vorher noch mit der Datenträgerverwaltung die SD Karte mit [FAT32 formatieren](https://www.diskpart.com/de/windows-11/windows-11-festplatte-fat32-formatieren.html).
 
-Ich habe bei mir zu Haus eine [Ubiquiti UniFi Dream Machine](https://amzn.to/3Rybvjh) und dort ist der [Raspberry Pi 4
+Ich habe bei mir zu Haus eine [Ubiquiti UniFi Dream Machine](https://amzn.to/3Rybvjh) stehen und dort ist der [Raspberry Pi 4
 ](https://amzn.to/3uKBk6E) per LAN Kabel angeschlossen. Das erspart mit die WiFi Konifguration. Da daucht er dann auch auf.
 
 ![rasbperrypi](/assets/images/raspberrypi_unify.png)
