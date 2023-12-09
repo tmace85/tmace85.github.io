@@ -1,7 +1,6 @@
 ---
 title: Homeassistant mit dem PI 4
 description: "Home Automation mit Home Assistant auf dem PI 4"
-categories: 'howto'
 tags:
     - home assistant
     - howto
