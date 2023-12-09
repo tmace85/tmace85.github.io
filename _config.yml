@@ -20,6 +20,7 @@ defaults:
       comments: true
       share: false
       related: true
+      show_date: true
 
 name                     : &name "Tim" # &name is a YAML anchor which can be *referenced later
 description              : &description "Seite über mich"
