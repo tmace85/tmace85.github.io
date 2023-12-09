@@ -64,4 +64,4 @@ Jetzt wurden auch noch ein paar Geräte in meinem Netzwerk erkannt. Viel kann es
 Damit ist das Setup abgeschlossen und es geht die spezielle Konfiguration. Ich werde dort mal etwas rumspielen und dann gegebenfalls mehrer Artikel dazu veröffentlichen.
 
 
-Quelle der Inspiration: https://www.home-assistant.io/installation/raspberrypi/#install-home-assistant-operating-system
+Quelle der Inspiration war der [Original Artikel]( https://www.home-assistant.io/installation/raspberrypi/#install-home-assistant-operating-system)
