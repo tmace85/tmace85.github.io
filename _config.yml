@@ -70,3 +70,5 @@ footer:
     - label: "Geekparents Podcast"
       icon: "fab fa-fw fa-mastodon"
       url: "https://www.geekparents.de"
+    - label: "PayPal Kaffeespende"
+      url: https://paypal.me/TimRohde?country.x=DE&locale.x=de_DE
