@@ -29,6 +29,8 @@ author:
   bio              : "Nerd"
   location         : "Berlin"
   links:
+    - label: "PayPal Kaffeespende"
+      url: https://paypal.me/TimRohde?country.x=DE&locale.x=de_DE
     - label: "bemodi - IT Dienstleister"
       icon: "fab fa-fw fa-bemodi-square"
       url: "https://www.bemodi.de/"
