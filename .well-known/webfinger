@@ -1,0 +1,10 @@
+{
+	"subject": "acct:tim@tim-schiemann.de",
+	"links": [
+		{
+			"rel": "http://webfinger.net/rel/profile-page",
+			"type": "application/activity+json",
+			"href": "https://berlin.social/@mtdon"
+		}
+	]
+}

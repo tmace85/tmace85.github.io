@@ -8,6 +8,7 @@ plugins:
 - jekyll-include-cache
 - jekyll-mastodon_webfinger
 include: ["_pages"]
+include: [".well-known"]
 
 defaults:
   # posts
