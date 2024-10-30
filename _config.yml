@@ -6,6 +6,7 @@ repository: tmace85/tmace85.github.io
 plugins:
 - jekyll-remote-theme
 - jekyll-include-cache
+- jekyll-mastodon_webfinger
 include: ["_pages"]
 
 defaults:
@@ -75,3 +76,7 @@ footer:
       url: "https://www.geekparents.de"
     - label: "PayPal Kaffeespende"
       url: https://paypal.me/TimRohde?country.x=DE&locale.x=de_DE
+
+mastodon:
+  username: mtdon
+  instance: berlin.social
