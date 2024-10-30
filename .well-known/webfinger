@@ -1,10 +1,18 @@
 {
-	"subject": "acct:tim@tim-schiemann.de",
+	"subject": "acct:mtdon@berlin.social",
+    "aliases": [
+     "https://berlin.social/@mtdon"
+    ],
 	"links": [
 		{
 			"rel": "http://webfinger.net/rel/profile-page",
-			"type": "application/activity+json",
+			"type": "text/html",
 			"href": "https://berlin.social/@mtdon"
-		}
+		},
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://berlin.social/users/mtdon"
+        }
 	]
 }
