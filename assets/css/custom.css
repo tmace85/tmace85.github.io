@@ -1,23 +1,39 @@
 /* Custom styles for the website */
 
-/* Reduce header image height */
+/* Reduce header image height - for all layouts */
 .page__hero-image {
-  height: 300px;
+  height: 300px !important;
+  max-height: 300px !important;
 }
 
 .page__hero {
-  position: relative;
-  margin-bottom: 2em;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 300px;
+  height: 300px !important;
+  max-height: 300px !important;
+}
+
+/* For splash layout specifically */
+.splash .page__hero {
+  height: 300px !important;
+  max-height: 300px !important;
+}
+
+.splash .page__hero-image {
+  height: 300px !important;
+  max-height: 300px !important;
+}
+
+/* Generic header styles */
+.page__header {
+  height: 300px !important;
 }
 
 /* Adjust for smaller screens */
 @media (max-width: 768px) {
   .page__hero-image,
-  .page__hero {
-    height: 200px;
+  .page__hero,
+  .splash .page__hero,
+  .splash .page__hero-image {
+    height: 200px !important;
+    max-height: 200px !important;
   }
 }
