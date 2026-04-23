@@ -1,0 +1,23 @@
+/* Custom styles for the website */
+
+/* Reduce header image height */
+.page__hero-image {
+  height: 300px;
+}
+
+.page__hero {
+  position: relative;
+  margin-bottom: 2em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .page__hero-image,
+  .page__hero {
+    height: 200px;
+  }
+}
