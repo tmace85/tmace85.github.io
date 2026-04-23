@@ -1,7 +1,10 @@
 ---
-title: Wer ist Tim!
-description: "Die Seite über Tim"
+title: "Über mich - Tim aus Berlin"
+description: "Nerd, Vater und Podcast-Host - Das bin ich. Entdecke mehr über meine Leidenschaften und Projekte."
+excerpt: "Ganz einfach. Das bin ich. Nerd und Vater. Höre gern Techno und habe mit Kumpels einen Podcast."
 permalink: /about/
+categories: [Personal]
+tags: [about, podcast]
 header:
   image: assets/images/tim_xletix.jpg
   image_description: "Tim in dreckigem Wasser"

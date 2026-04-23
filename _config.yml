@@ -7,8 +7,9 @@ plugins:
 - jekyll-remote-theme
 - jekyll-include-cache
 - jekyll-mastodon_webfinger
-include: ["_pages"]
-include: [".well-known"]
+- jekyll-sitemap
+- jekyll-seo-tag
+include: ["_pages", ".well-known"]
 
 defaults:
   # posts
@@ -43,12 +44,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tmace85"
-    - label: "BlueSky"
-      icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/tim-schiemann.de"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://berlin.social/@mtdon"
     - label: "Geekparents Podcast"
       icon: "fab fa-fw fa-mastodon"
       url: "https://www.geekparents.de"
@@ -66,17 +61,15 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tmace85"
-    - label: "BlueSky"
-      icon: "fab fa-fw fa-bluesky"
-      url: "https://bsky.app/profile/tim-schiemann.de"
-    - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://berlin.social/@mtdon"
     - label: "Geekparents Podcast"
       icon: "fab fa-fw fa-mastodon"
       url: "https://www.geekparents.de"
     - label: "PayPal Kaffeespende"
       url: https://paypal.me/TimRohde?country.x=DE&locale.x=de_DE
+
+# SEO Configuration
+lang: de
+locale: de_DE
 
 mastodon:
   username: mtdon

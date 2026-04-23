@@ -1,10 +1,13 @@
 ---
-title:  Home Assistant auf dem PI 4
-description: "Home Automation mit Home Assistant auf dem PI 4"
+title: "Home Assistant auf dem Raspberry Pi 4 installieren"
+description: "Anleitung: Home Assistant auf dem Raspberry Pi 4 installieren und konfigurieren. Smart Home mit Home Automation."
+excerpt: "Ich habe einen alten Raspberry Pi 4 aus 2018 zu einer Home Automation-Zentrale mit Home Assistant umgebaut."
+categories: [Tutorials, Home Automation]
 tags:
     - home assistant
     - howto
     - linux
+    - raspberry pi
 ---
 
 Ich habe seit langem einen Raspberry 4, aus dem Jahr 2018. Was soll ich sagen, ist nicht mehr all zu aktuelle. Jetzt wurde ich von einem [Kumpel](https://sethiele.de/) auf das [Home Assistant](https://www.home-assistant.io/) Projekt aufmerksam gemacht. Davon habe ich natürlich schon mehrfach gehört, aber naja, nie die "Zeit gefunden" das mal anzugehen. Jetzt solls aber los gehen.

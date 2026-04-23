@@ -1,0 +1,16 @@
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:image" content="{% if page.header.image %}{{ page.header.image | absolute_url }}{% elsif site.author.avatar %}{{ site.author.avatar | absolute_url }}{% endif %}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ page.url | absolute_url }}">
+<meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="twitter:image" content="{% if page.header.image %}{{ page.header.image | absolute_url }}{% elsif site.author.avatar %}{{ site.author.avatar | absolute_url }}{% endif %}">
+
+<!-- Mastodon Verification -->
+<link rel="me" href="https://{{ site.mastodon.instance }}/@{{ site.mastodon.username }}">
