@@ -3,6 +3,7 @@ url: https://www.tim-schiemann.de
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 minimal_mistakes_skin: "dark"
 repository: tmace85/tmace85.github.io
+permalink: /blog/:year/:month/:day/:title/
 plugins:
 - jekyll-remote-theme
 - jekyll-include-cache
