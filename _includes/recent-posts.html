@@ -1,0 +1,74 @@
+<!-- Recent Posts Section -->
+<div class="post-list-container">
+  <h2>Neueste Artikel</h2>
+  
+  {% for post in site.posts limit: 5 %}
+    <article class="archive__item">
+      <div class="archive__item-teaser">
+        {% if post.header.image %}
+          <img src="{{ post.header.image }}" alt="">
+        {% endif %}
+      </div>
+      <h3 class="archive__item-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      {% if post.date %}
+        <p class="page__meta">
+          <i class="far fa-calendar-alt" aria-hidden="true"></i>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d. %B %Y" }}</time>
+        </p>
+      {% endif %}
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt">{{ post.excerpt }}</p>
+      {% endif %}
+      <a href="{{ post.url }}" class="btn btn--primary">Mehr lesen</a>
+    </article>
+  {% endfor %}
+  
+  <p class="text-center" style="margin-top: 2em;">
+    <a href="/blog/" class="btn btn--info">Zum Blog-Archiv</a>
+  </p>
+</div>
+
+<style>
+.post-list-container {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.archive__item {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.archive__item-teaser {
+  margin-bottom: 1em;
+}
+
+.archive__item-teaser img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.archive__item-title {
+  margin: 0.5em 0;
+}
+
+.archive__item-title a {
+  text-decoration: none;
+}
+
+.archive__item-excerpt {
+  margin: 0.5em 0;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+}
+
+.text-center {
+  text-align: center;
+}
+</style>
