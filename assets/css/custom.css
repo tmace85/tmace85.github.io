@@ -1,39 +1,47 @@
 /* Custom styles for the website */
 
-/* Reduce header image height - for all layouts */
+/* Override Minimal Mistakes hero heights */
+.page__hero--overlay {
+  height: 300px !important;
+}
+
+.page__hero--image {
+  height: 300px !important;
+}
+
+/* Splash layout hero */
 .page__hero-image {
   height: 300px !important;
-  max-height: 300px !important;
 }
 
-.page__hero {
+/* Direct background image container */
+[style*="background-image"] {
   height: 300px !important;
   max-height: 300px !important;
 }
 
-/* For splash layout specifically */
-.splash .page__hero {
+/* Hero content wrapper */
+.page__hero-caption {
   height: 300px !important;
-  max-height: 300px !important;
 }
 
-.splash .page__hero-image {
-  height: 300px !important;
-  max-height: 300px !important;
-}
-
-/* Generic header styles */
-.page__header {
-  height: 300px !important;
+/* Actions in header */
+.page-hero-actions {
+  padding-top: 150px !important;
 }
 
 /* Adjust for smaller screens */
 @media (max-width: 768px) {
+  .page__hero--overlay,
+  .page__hero--image,
   .page__hero-image,
-  .page__hero,
-  .splash .page__hero,
-  .splash .page__hero-image {
+  [style*="background-image"],
+  .page__hero-caption {
     height: 200px !important;
     max-height: 200px !important;
+  }
+  
+  .page-hero-actions {
+    padding-top: 100px !important;
   }
 }
