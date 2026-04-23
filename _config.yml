@@ -35,6 +35,9 @@ author:
   bio              : "Nerd"
   location         : "Berlin"
   links:
+    - label: "Mastodon"
+      icom: "fab fa-mastodon"
+      url: https://social.vivaldi.net/@tmace85
     - label: "PayPal Kaffeespende"
       url: https://paypal.me/TimRohde?country.x=DE&locale.x=de_DE
     - label: "bemodi - IT Dienstleister"
@@ -46,17 +49,14 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tmace85"
-    - label: "Geekparents Podcast"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://www.geekparents.de"
-    - label: "Mastodon"
-      icom: "fab fa-mastodon"
-      url: https://social.vivaldi.net/@tmace85
 
 
 
 footer:
   links:
+    - label: "Mastodon"
+      icon: "fab fa-mastodon"
+      url: https://social.vivaldi.net/@tmace85
     - label: "bemodi - unabhängiger IT Dienstleister"
       icon: "fab fa-fw fa-bemodi-square"
       url: "https://www.bemodi.de/"
@@ -66,15 +66,14 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tmace85"
-    - label: "Geekparents Podcast"
-      icon: "fab fa-fw fa-mastodon"
-      url: "https://www.geekparents.de"
     - label: "PayPal Kaffeespende"
       url: https://paypal.me/TimRohde?country.x=DE&locale.x=de_DE
-    - label: "Mastodon"
-      icom: "fab fa-mastodon"
-      url: https://social.vivaldi.net/@tmace85
 
+      
 # SEO Configuration
 lang: de
-locale: de_DE
+locale: de_DE.  
+mastodon:
+  username: tmace85
+  instance: social.vivaldi.net
+
