@@ -1,5 +1,5 @@
 // Override Minimal Mistakes hero image height (theme uses padding, not height)
-.page__hero--overlay {
+.page__hero {
   padding: 0.25em 0 !important;
   min-height: unset !important;
 
