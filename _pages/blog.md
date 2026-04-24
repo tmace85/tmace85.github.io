@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /blog/
-title: Blog Archive
+title: Blog Archiv
 author_profile: true
 description: "Alle Blog-Artikel von Tim über Tech, Home Assistant und mehr."
 ---
