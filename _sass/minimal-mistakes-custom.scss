@@ -1,9 +1,15 @@
 // Override Minimal Mistakes hero image height
-.page__hero--overlay,
+.page__hero--overlay {
+  max-height: 300px !important;
+}
+
 .page__hero--image {
-  height: 300px !important;
-  
-  @media (max-width: 768px) {
-    height: 200px !important;
+  max-height: 300px !important;
+}
+
+@media (max-width: 600px) {
+  .page__hero--overlay,
+  .page__hero--image {
+    max-height: 200px !important;
   }
 }
