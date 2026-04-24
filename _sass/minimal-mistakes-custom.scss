@@ -1,6 +1,9 @@
 // Override Minimal Mistakes hero image height (theme uses padding, not height)
-.page__hero {
-  min-height: 25vh !important; /* Set your desired min height (e.g., 25% of viewport) */
-  max-height: 50vh !important; /* Optional: Set a max height if needed */
-  max-width:  50vh!important; /* Optional: Ensure the image doesn't exceed its natural width */
-}   
+.page__hero--overlay {
+  padding: 0.75em 0 !important;
+  min-height: unset !important;
+
+  @media (max-width: 768px) {
+    padding: 0.5em 0 !important;
+  }
+}
