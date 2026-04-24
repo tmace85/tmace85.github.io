@@ -10,4 +10,4 @@ header:
 
 ---
 
-Ganz einfach. Das bin ich. Nerd und Vater. Höre gern Techno und habe mit Kumpels einen Podcast.
+Nerd, Vater und Podcast-Host - Das bin ich. Entdecke mehr über meine Leidenschaften und Projekte.
