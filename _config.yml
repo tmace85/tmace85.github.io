@@ -71,7 +71,3 @@ footer:
 # SEO Configuration
 lang: de
 locale: de_DE
-
-mastodon:
-  username: mtdon
-  instance: berlin.social
