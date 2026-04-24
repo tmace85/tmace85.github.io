@@ -1,19 +1,9 @@
-// Override Minimal Mistakes hero image height
-.page__hero--overlay,
-.page__hero--image {
-  aspect-ratio: 16 / 3 !important;
-  max-height: 200px !important;
-  height: auto !important;
-  object-fit: cover !important;
-  object-position: center !important;
-  
+// Override Minimal Mistakes hero image height (theme uses padding, not height)
+.page__hero--overlay {
+  padding: 3em 0 !important;
+  min-height: unset !important;
+
   @media (max-width: 768px) {
-    aspect-ratio: 16 / 4 !important;
-    max-height: 150px !important;
-  }
-  
-  @media (max-width: 600px) {
-    aspect-ratio: 16 / 5 !important;
-    max-height: 120px !important;
+    padding: 2em 0 !important;
   }
 }
