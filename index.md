@@ -1,5 +1,5 @@
 ---
-title: Blog von Tim | Tech, Home Assistant & Podcast
+title: Blog von Tim
 description: "Persönlicher Blog über Technologie, Home Assistant, Unifi und mehr. Von Tim aus Berlin."
 layout: splash
 permalink: /
@@ -8,7 +8,5 @@ header:
   image_description: "dirty shoes in Gras"
   caption: "Photo credit: [**Sportfotograf**](https://www.sportograf.com/de)"
 ---
-
-Wie immer ist hier wenig los. Kommt noch. :)
 
 {% include recent-posts.html %}
