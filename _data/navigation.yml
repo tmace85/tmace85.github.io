@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Blog"
+    url: blog
   - title: "Datenschutz"
     url: datenschutz
   - title: "Impressum"
