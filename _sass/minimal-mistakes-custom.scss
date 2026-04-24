@@ -1,7 +1,7 @@
 // Override Minimal Mistakes hero image height (theme uses padding, not height)
 .page__hero {
   padding: 0.25em 0 !important;
-  min-height: unset !important;
+  min-height: 25vh !important;
 
   @media (max-width: 768px) {
     padding: 0.25em 0 !important;
