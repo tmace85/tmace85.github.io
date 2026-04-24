@@ -5,7 +5,7 @@ excerpt: "Ganz einfach. Das bin ich. Nerd und Vater. Höre gern Techno und habe 
 permalink: /about/
 tags: [about, podcast]
 header:
-  header_image: assets/images/tim_xletix.jpg
+  overlay_image: assets/images/tim_xletix.jpg
   image_description: "Tim in dreckigem Wasser"
   caption: "Photo credit: [**Sportfotograf**](https://www.sportograf.com/de)"
   actions:
