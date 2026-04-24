@@ -1,7 +1,7 @@
 ---
 title: Blog von Tim | Tech, Home Assistant & Podcast
 description: "Persönlicher Blog über Technologie, Home Assistant, Unifi und mehr. Von Tim aus Berlin."
-layout: splash-custom
+layout: splash
 permalink: /
 header:
   overlay_image: assets/images/shoes.jpg
