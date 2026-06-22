@@ -49,6 +49,9 @@ author:
     - label: "Geekparents Podcast"
       icon: "fab fa-fw fa-mastodon"
       url: "https://www.geekparents.de"
+    - label: "Mastodon"
+      icom: "fab fa-mastodon"
+      url: https://social.vivaldi.net/@tmace85
 
 
 
@@ -68,6 +71,9 @@ footer:
       url: "https://www.geekparents.de"
     - label: "PayPal Kaffeespende"
       url: https://paypal.me/TimRohde?country.x=DE&locale.x=de_DE
+    - label: "Mastodon"
+      icom: "fab fa-mastodon"
+      url: https://social.vivaldi.net/@tmace85
 
 # SEO Configuration
 lang: de
