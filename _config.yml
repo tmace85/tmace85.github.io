@@ -34,9 +34,7 @@ author:
   avatar           : "/assets/images/tim_xletix.jpg"
   bio              : "Nerd"
   location         : "Berlin"
-  mastodon:
-    username: tmace85
-    instance: tmace85@social.vivaldi.net
+  fedivers: "@tmace85@social.vivaldi.net"
   links:
     - label: "Mastodon"
       icom: "fab fa-mastodon"
