@@ -72,7 +72,7 @@ footer:
       
 # SEO Configuration
 lang: de
-locale: de_DE.  
+locale: de_DE
 mastodon:
   username: tmace85
   instance: social.vivaldi.net
