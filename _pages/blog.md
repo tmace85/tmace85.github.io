@@ -3,7 +3,7 @@ layout: home
 permalink: /blog/
 title: Blog Archiv
 author_profile: true
-description: "Alle Blog-Artikel von Tim über Tech, Home Assistant und mehr."
+description: "Alle Beiträge von Tim Schiemann über KI und MCP, SRE-Alltag, Homelab und Laufen."
 ---
 
 <h3>Neueste Artikel</h3>

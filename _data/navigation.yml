@@ -2,6 +2,8 @@
 main:
   - title: "Blog"
     url: blog
+  - title: "Rubriken"
+    url: rubriken
   - title: "Über mich"
     url: about
   - title: "Datenschutz"
