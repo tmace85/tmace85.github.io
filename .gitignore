@@ -7,7 +7,7 @@ _site/
 # Ruby / Bundler (installed locally via mise)
 Gemfile.lock
 .bundle/
-vendor/
+/vendor/
 
 # Local tool overrides and secrets
 mise.local.toml
