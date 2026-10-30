@@ -85,6 +85,7 @@ footer:
       
 # SEO Configuration
 lang: de
+og_image: /assets/images/og-default.jpg # default social preview (1200x630) for pages without their own
 locale: de_DE
 
 

@@ -5,7 +5,7 @@ tags: [about, podcast]
 header:
   overlay_image: assets/images/tim_xletix.jpg
   image_description: "Tim in dreckigem Wasser"
-  caption: "Photo credit: [**Sportfotograf**](https://www.sportograf.com/de)"
+  caption: "Photo credit: [**Sportograf**](https://www.sportograf.com/de)"
 
 ---
 
