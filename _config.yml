@@ -8,11 +8,9 @@ permalink: /blog/:year/:month/:day/:title/
 plugins:
 - jekyll-remote-theme
 - jekyll-include-cache
-- jekyll-mastodon_webfinger
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-seo-tag
-- jekyll-last-modified-at
 include: ["_pages", ".well-known"]
 # Keep repo tooling out of the published site (also lists Jekyll's default excludes)
 exclude:
@@ -35,7 +33,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: false
       related: true
       show_date: true

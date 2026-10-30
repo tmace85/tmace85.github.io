@@ -15,14 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # vollständiger git-Verlauf für last-modified-at
-
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2'
-          bundler-cache: true
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
