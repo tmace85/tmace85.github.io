@@ -47,10 +47,9 @@ author:
   avatar           : "/assets/images/tim_xletix.jpg"
   bio              : "Nerd"
   location         : "Berlin"
-  fedivers: "@tmace85@social.vivaldi.net"
   links:
     - label: "Mastodon"
-      icom: "fab fa-mastodon"
+      icon: "fab fa-fw fa-mastodon"
       url: https://social.vivaldi.net/@tmace85
     - label: "PayPal Kaffeespende"
       url: https://paypal.me/TimRohde?country.x=DE&locale.x=de_DE

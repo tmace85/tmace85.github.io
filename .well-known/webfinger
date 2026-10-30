@@ -1,18 +1,23 @@
 {
-	"subject": "acct:mtdon@berlin.social",
-    "aliases": [
-     "https://berlin.social/@mtdon"
-    ],
-	"links": [
-		{
-			"rel": "http://webfinger.net/rel/profile-page",
-			"type": "text/html",
-			"href": "https://berlin.social/@mtdon"
-		},
-        {
-            "rel": "self",
-            "type": "application/activity+json",
-            "href": "https://berlin.social/users/mtdon"
-        }
-	]
+  "subject": "acct:tmace85@vivaldi.net",
+  "aliases": [
+    "https://social.vivaldi.net/@tmace85",
+    "https://social.vivaldi.net/ap/users/116793213042244617"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://social.vivaldi.net/@tmace85"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://social.vivaldi.net/ap/users/116793213042244617"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://social.vivaldi.net/authorize_interaction?uri={uri}"
+    }
+  ]
 }
