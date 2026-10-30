@@ -25,40 +25,40 @@ Ich habe seit langem einen Raspberry 4, aus dem Jahr 2018. Was soll ich sagen, i
 
 Für das Bespielen des Images auf die SD Karte, benötigt Ihr Ihr den [Raspberry Pi Imager](https://www.raspberrypi.com/software/). Ist eigentlich alles selbserklärend.     l
 
-![raspberrypi_immager](/assets/images/raspberrypi_imager.png)
+![Startbildschirm des Raspberry Pi Imager mit Auswahl von Gerät, Betriebssystem und SD-Karte](/assets/images/raspberrypi_imager.png)
 
 OS wählen -> "Other specifi-purpose OS" ->  Home assistants and home automation ->  Home Assistant
 
-![raspberrypi_immager](/assets/images/raspberrypi_imager_ha.png)
+![Betriebssystem-Auswahl im Raspberry Pi Imager, unten in der Liste Home Assistant](/assets/images/raspberrypi_imager_ha.png)
 
 Nun wird das ganze auf der SD Karte installiert. Bei mir musste ich vorher noch mit der Datenträgerverwaltung die SD Karte mit [FAT32 formatieren](https://www.diskpart.com/de/windows-11/windows-11-festplatte-fat32-formatieren.html).
 
 Ich habe bei mir zu Haus eine [Ubiquiti UniFi Dream Machine](https://amzn.to/3Rybvjh) stehen und dort ist der [Raspberry Pi 4
 ](https://amzn.to/3uKBk6E) per LAN Kabel angeschlossen. Das erspart mit die WiFi Konifguration. Da daucht er dann auch auf.
 
-![rasbperrypi](/assets/images/raspberrypi_unify.png)
+![Der Raspberry Pi als kabelgebundenes Gerät in der UniFi-App](/assets/images/raspberrypi_unify.png)
 
 ## Einrichtung Home Assistant
 
 Die WUI kann via http://homeassistant.local:8123 aufgerufen werden. Dort wird man nun von dem Onboarding Screen begrüßt.
 
-![ha_setup](/assets/images/ha_setup.png)
+![Willkommensbildschirm beim Onboarding von Home Assistant](/assets/images/ha_setup.png)
 
 Nun soll ich erstmal eine Benutzer anlegen. Nix leichter als das.
 
-![ha_user](/assets/images/ha_user.png)
+![Home Assistant Onboarding: Formular zum Anlegen des ersten Benutzerkontos](/assets/images/ha_user.png)
 
 Und natürlich will man meinen Standort wissen, aber Amsterdam ist es eigentlich nicht.
 
-![ha_location](/assets/images/ha_location.png)
+![Home Assistant Onboarding: Heimatort auf der Karte festlegen, voreingestellt ist Amsterdam](/assets/images/ha_location.png)
 
 Klar, ein paar Statistiken dürfen auch nicht fehlen.
 
-![ha_stats](/assets/images/ha_stats.png)
+![Home Assistant Onboarding: Auswahl, welche anonymen Statistiken geteilt werden](/assets/images/ha_stats.png)
 
 Jetzt wurden auch noch ein paar Geräte in meinem Netzwerk erkannt. Viel kann es nicht sein, da ich ein eigenes IOT Netzwerk habe, was per default keinen Zugriff auf das Netzwerk vom [Raspberry Pi 4](https://amzn.to/3uKBk6E) getrennt sind. Ein paar Bluetooth Geräte wurden dann doch gefunden.
 
-![ha_devices](/assets/images/ha_devices.png)
+![Home Assistant Onboarding: gefundene Geräte Bluetooth, iBeacon Tracker und Xiaomi BLE](/assets/images/ha_devices.png)
 
 Damit ist das Setup abgeschlossen und es geht die spezielle Konfiguration. Ich werde dort mal etwas rumspielen und dann gegebenfalls mehrer Artikel dazu veröffentlichen.
 
