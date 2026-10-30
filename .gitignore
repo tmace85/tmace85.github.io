@@ -1,3 +1,34 @@
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby / Bundler (installed locally via mise)
 Gemfile.lock
-_site
+.bundle/
+vendor/
+
+# Local tool overrides and secrets
+mise.local.toml
+.mise.local.toml
+.env
+.env.*
+*.local.*
+
+# Local AI assistant config and scratch space (never public)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+*~
 .DS_Store
+Thumbs.db
+
+# Unprocessed image originals (only publish resized, EXIF-stripped files)
+*.orig.*
+originals/

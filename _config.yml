@@ -12,6 +12,17 @@ plugins:
 - jekyll-seo-tag
 - jekyll-last-modified-at
 include: ["_pages", ".well-known"]
+# Keep repo tooling out of the published site (also lists Jekyll's default excludes)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - mise.toml
+  - workspace.code-workspace
+  - vendor/
+  - node_modules/
+  - .bundle/
+  - .jekyll-cache/
+  - .sass-cache/
 
 defaults:
   # posts
