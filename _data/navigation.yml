@@ -2,9 +2,9 @@
 main:
   - title: "Blog"
     url: blog
+  - title: "Über mich"
+    url: about
   - title: "Datenschutz"
     url: datenschutz
   - title: "Impressum"
     url: impressum
-  - title: "About"
-    url: about
