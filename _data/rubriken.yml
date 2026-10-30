@@ -1,0 +1,9 @@
+# Rubriken of the blog: name must match the `categories` value in posts
+- name: "KI und MCP"
+  intro: "KI-Agenten, das Model Context Protocol und was davon im Alltag wirklich trägt."
+- name: "SRE-Alltag"
+  intro: "Betrieb, Störungen und was man daraus lernt."
+- name: "Homelab"
+  intro: "Mein Talos-Cluster, Self-Hosting und zu viele Projekte, die nie ganz fertig werden."
+- name: "Laufen"
+  intro: "Mein Dauerprojekt, ein Marathon unter vier Stunden."

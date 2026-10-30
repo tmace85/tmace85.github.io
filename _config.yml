@@ -12,6 +12,13 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 include: ["_pages", ".well-known"]
+# Rubriken and tags are listed on single pages; post meta links to their anchors
+category_archive:
+  type: liquid
+  path: /rubriken/
+tag_archive:
+  type: liquid
+  path: /tags/
 # Keep repo tooling out of the published site (also lists Jekyll's default excludes)
 exclude:
   - Gemfile
