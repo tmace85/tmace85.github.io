@@ -1,0 +1,14 @@
+# Local toolchain, matches the GitHub Pages runtime (https://pages.github.com/versions/)
+[tools]
+ruby = "3.3.4"
+
+[env]
+BUNDLE_PATH = "vendor/bundle"
+
+[tasks.serve]
+description = "Local preview including unpublished posts"
+run = "bundle exec jekyll serve --unpublished --livereload"
+
+[tasks.build]
+description = "Production build"
+run = "JEKYLL_ENV=production bundle exec jekyll build"
