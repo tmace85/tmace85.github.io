@@ -1,11 +1,11 @@
 ---
-title: Blog von Tim
-description: "Persönlicher Blog über Technologie, Home Assistant, Unifi und mehr. Von Tim aus Berlin."
+title: Blog von Tim Schiemann
+description: "Blog von Tim Schiemann aus Berlin über KI und MCP, SRE-Alltag, Homelab und Laufen."
 layout: splash
 permalink: /
 header:
   overlay_image: assets/images/shoes.jpg
-  image_description: "dirty shoes in Gras"
+  image_description: "Schlammverschmierte Laufschuhe im Gras"
   caption: "Photo credit: [**Sportograf**](https://www.sportograf.com/de)"
 
 ---

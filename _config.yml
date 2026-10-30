@@ -1,4 +1,4 @@
-title: Blog of Tim
+title: Tim Schiemann
 url: https://www.tim-schiemann.de
 baseurl: "" # explicit, otherwise github-metadata guesses /pages/<user> in local builds
 remote_theme: mmistakes/minimal-mistakes@4.28.0
@@ -38,17 +38,20 @@ defaults:
       related: true
       show_date: true
 
-name                     : &name "Tim" # &name is a YAML anchor which can be *referenced later
-description              : &description "Seite über mich"
+name                     : &name "Tim Schiemann" # &name is a YAML anchor which can be *referenced later
+description              : &description "Blog von Tim Schiemann aus Berlin über KI und MCP, SRE-Alltag, Homelab und Laufen."
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/tim_xletix.jpg"
-  bio              : "Nerd"
+  bio              : "Teamleiter by day, Homelab-Tüftler by night."
   location         : "Berlin"
   links:
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
       url: https://social.vivaldi.net/@tmace85
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: https://bsky.app/profile/tim-schiemann.de
     - label: "PayPal Kaffeespende"
       url: https://paypal.me/TimRohde?country.x=DE&locale.x=de_DE
     - label: "bemodi - IT Dienstleister"
@@ -66,8 +69,11 @@ author:
 footer:
   links:
     - label: "Mastodon"
-      icon: "fab fa-mastodon"
+      icon: "fab fa-fw fa-mastodon"
       url: https://social.vivaldi.net/@tmace85
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: https://bsky.app/profile/tim-schiemann.de
     - label: "bemodi - unabhängiger IT Dienstleister"
       icon: "fab fa-fw fa-bemodi-square"
       url: "https://www.bemodi.de/"
