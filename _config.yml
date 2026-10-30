@@ -10,6 +10,7 @@ plugins:
 - jekyll-include-cache
 - jekyll-mastodon_webfinger
 - jekyll-sitemap
+- jekyll-feed
 - jekyll-seo-tag
 - jekyll-last-modified-at
 include: ["_pages", ".well-known"]
